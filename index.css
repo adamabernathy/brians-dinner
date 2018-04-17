@@ -1,0 +1,24 @@
+* {box-sizing: border-box;}
+.img-comp-container {
+  position: relative;
+}
+.img-comp-img {
+  position: absolute;
+  overflow:hidden;
+}
+.img-comp-img img {
+  width: 600px;
+  height: 400px;
+  display:block;
+  margin:auto;
+}
+.img-comp-slider {
+  position: absolute;
+  z-index:9;
+  cursor: ew-resize;
+  width: 20px;
+  height: 60px;
+  background-color: rgb(41, 41, 41);
+  opacity: 0.9;
+  border-radius: 9%;
+}
